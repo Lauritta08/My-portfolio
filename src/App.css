@@ -1,0 +1,33 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  /* padding: 2rem; this gave a margin to the whole page, which i didn't need */
+  text-align: center;
+}
+
+/* .name-logo {
+  font-family: "Lavishly Yours", cursive;
+  font-weight: 400;
+  font-style: normal;
+} */
+
+/* <uniquifier>: Use a unique and descriptive class name
+<weight>: Use a value from 400 to 900 */
+
+.kufam {
+  font-family: "Kufam", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
+
+
+
+.dancing-script {
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+

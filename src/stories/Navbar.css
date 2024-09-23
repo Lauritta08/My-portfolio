@@ -1,0 +1,64 @@
+.navbar {
+    padding: 10px;
+    height: 50px;
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    border-bottom: solid 3px black;
+  }
+  .name-logo {
+    font-family: "Lavishly Yours", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: xxx-large;
+    margin-right: 5%;
+    justify-content: left;
+  }
+
+.kufam {
+  font-family: "Kufam", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
+  
+  .navbar-list {
+    list-style: none;
+    padding: 10;
+    display: flex;
+  }
+  
+  .navbar-item {
+    margin-right: 50px;
+    
+  }
+  
+  .navbar-item a {
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  .navbar-item a:hover {
+    text-decoration: underline;
+    color: aliceblue;
+  }
+  .menu-icon {
+    display: none;
+  }
+  
+  @media (min-width:0px) and (max-width:768px) {
+    .navbar{
+        max-width: 100%;
+        box-sizing: border-box;
+        justify-content: space-between;
+    }
+    .navbar-list {
+        display: none;
+    }
+    .menu-icon{
+      display: flex;
+      height: 30px;
+    }
+  }

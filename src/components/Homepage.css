@@ -1,0 +1,11 @@
+.dancing-script-slide {
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+  }
+  .first-letter::first-letter {
+    font-family: 'Lavishly Yours', cursive;
+    font-size: 2em; 
+    color: #333;    
+  }
